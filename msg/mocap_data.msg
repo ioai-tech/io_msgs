@@ -1,0 +1,10 @@
+Header header
+float32[4] joint_quaternion
+float32[4] raw_quaternion
+float32[4] world_quaternion
+float32[3] mag
+float32[3] accel
+float32[3] gyro
+float32[3] raw_mag
+float32[3] raw_accel
+float32[3] raw_gyro
