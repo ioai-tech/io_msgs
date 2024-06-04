@@ -15,6 +15,12 @@ add_message_files(FILES
   squashed_bend.msg
   squashed_touch.msg)
 
+set(SERVICE_FILES
+  SetRecord.srv
+)
+
+add_service_files(FILES ${SERVICE_FILES})
+
 generate_messages(DEPENDENCIES std_msgs sensor_msgs)
 
 catkin_package(
