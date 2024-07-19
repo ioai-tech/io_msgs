@@ -1,13 +1,16 @@
-add_ros_message_files(io_mocap_msgs
-  SPACE io_mocap
+add_ros_message_files(io_msgs
+  SPACE io_msgs
   FILES
     bend.msg
-    touch.msg
-    old_touch.msg
+    claws_angle.msg
+    imu_state.msg
     mocap_data.msg
-    squashed_mocap_data.msg
+    old_touch.msg
     squashed_bend.msg
+    squashed_imu_state.msg
+    squashed_mocap_data.msg
     squashed_touch.msg
+    touch.msg
   DEPS
     std_msgs
     sensor_msgs
