@@ -17,6 +17,9 @@ add_message_files(FILES
   squashed_imu_state.msg
   squashed_mocap_data.msg
   squashed_touch.msg
+  teleop_robot_state.msg
+  robot_status.msg
+  robot_expect_motion.msg
   io_tf_frame.msg
   io_pose.msg
   io_tf.msg
