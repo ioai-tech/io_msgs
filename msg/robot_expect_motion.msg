@@ -1,4 +1,5 @@
 std_msgs/Header header
+bool activate
 bool reset_robot
 bool use_base
 bool use_arm
