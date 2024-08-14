@@ -1,6 +1,8 @@
 std_msgs/Header header
 bool activate
 bool reset_robot
+bool with_planning
+bool reset_home_j
 bool use_base
 bool use_arm
 bool use_tool
