@@ -29,3 +29,6 @@ float32 magCandidateDip
 float32 magCandidateT
 float32[2] magNormDip
 float32[4] magNormDipLpState
+bool data_valid_flag
+int32 data_invalid_cnt
+float32[] reserved
