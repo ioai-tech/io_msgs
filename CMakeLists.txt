@@ -4,6 +4,7 @@ project(io_msgs)
 find_package(catkin REQUIRED COMPONENTS
   message_generation
   sensor_msgs
+  grometry_msgs
   std_msgs)
 
 add_message_files(FILES
@@ -16,6 +17,9 @@ add_message_files(FILES
   squashed_imu_state.msg
   squashed_mocap_data.msg
   squashed_touch.msg
+  io_tf_frame.msg
+  io_pose.msg
+  io_tf.msg
   touch.msg)
 
 set(SERVICE_FILES
@@ -30,5 +34,6 @@ catkin_package(
   CATKIN_DEPENDS
   message_runtime
   sensor_msgs
+  grometry_msgs
   std_msgs
 )
