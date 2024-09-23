@@ -11,7 +11,11 @@ add_ros_message_files(io_msgs
     squashed_mocap_data.msg
     squashed_touch.msg
     touch.msg
+    io_tf_frame.msg
+    io_pose.msg
+    io_tf.msg
   DEPS
     std_msgs
     sensor_msgs
+    geometry_msgs
 )

@@ -4,7 +4,7 @@ project(io_msgs)
 find_package(catkin REQUIRED COMPONENTS
   message_generation
   sensor_msgs
-  grometry_msgs
+  geometry_msgs
   std_msgs)
 
 add_message_files(FILES
@@ -34,6 +34,6 @@ catkin_package(
   CATKIN_DEPENDS
   message_runtime
   sensor_msgs
-  grometry_msgs
+  geometry_msgs
   std_msgs
 )

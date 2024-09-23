@@ -1,4 +1,4 @@
-std_msgs/Header Header
+std_msgs/Header header
 bool is_valid
 float64[] joint_state
 io_pose[] ee_pose_vec
