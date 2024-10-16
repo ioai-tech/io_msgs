@@ -17,6 +17,9 @@ add_message_files(FILES
   squashed_imu_state.msg
   squashed_mocap_data.msg
   squashed_touch.msg
+  teleop_robot_state.msg
+  robot_status.msg
+  robot_expect_motion.msg
   io_tf_frame.msg
   io_pose.msg
   io_tf.msg
@@ -28,7 +31,7 @@ set(SERVICE_FILES
 
 add_service_files(FILES ${SERVICE_FILES})
 
-generate_messages(DEPENDENCIES std_msgs sensor_msgs)
+generate_messages(DEPENDENCIES std_msgs sensor_msgs geometry_msgs)
 
 catkin_package(
   CATKIN_DEPENDS
@@ -36,4 +39,5 @@ catkin_package(
   sensor_msgs
   geometry_msgs
   std_msgs
+  geometry_msgs
 )
