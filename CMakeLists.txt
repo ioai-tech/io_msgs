@@ -31,7 +31,7 @@ set(SERVICE_FILES
 
 add_service_files(FILES ${SERVICE_FILES})
 
-generate_messages(DEPENDENCIES std_msgs sensor_msgs)
+generate_messages(DEPENDENCIES std_msgs sensor_msgs geometry_msgs)
 
 catkin_package(
   CATKIN_DEPENDS
@@ -39,4 +39,5 @@ catkin_package(
   sensor_msgs
   geometry_msgs
   std_msgs
+  geometry_msgs
 )
