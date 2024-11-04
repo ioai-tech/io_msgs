@@ -1,0 +1,6 @@
+std_msgs/Header header
+geometry_msgs/Pose head_pose
+geometry_msgs/Pose base_pose
+geometry_msgs/PoseArray arm_home_ee_poses
+geometry_msgs/PoseArray arm_ee_poses
+std_msgs/Float64[] gripper_status
